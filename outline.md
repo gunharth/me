@@ -6,6 +6,5 @@ Projekte Highlights:
 - RSA Associates
 - EOC Engineers
 - Child Passport
-
 - Company Observer
 
