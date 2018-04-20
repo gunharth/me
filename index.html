@@ -51,13 +51,13 @@
     @media (min-width: 480px) {}
 
     .px-10 {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         /*padding-top: 2.5rem;*/
     }
 
     .profile-column {
-        background: url(Gunharth_Randolf.jpg) no-repeat center -81px;
+        background: url(Gunharth_Randolf.jpg) no-repeat center -50px;
         background-size: cover;
     }
 
@@ -70,6 +70,11 @@
             background: url(Gunharth_Randolf.jpg) no-repeat top;
             background-size: cover
         }
+        .px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        /*padding-top: 2.5rem;*/
+    }
     }
 
     @media (min-width: 769px) {
@@ -113,13 +118,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-cover relative overflow-y-auto w-full sm:w-1/2 md:w-2/3 xl:w-1/2 sm:h-full flex-col flex px-10">
-            <!-- <header class="flex justify-between items-center flex-col lg:flex-row mt-4 sm:mt-0 mb-12">
-                <a href="">
-    <img src="gr_logo.jpg" alt="Logo of Gunharth" width="50">
-</a>
-            </header> -->
-            <div class="sm:h-full flex flex-col">
+        <div class="bg-cover relative overflow-y-auto w-full flex-col flex px-10">
+        <div class="bg-cover relative w-full sm:h-full flex-col flex px-10">
+            <div class="sm:h-full flex flex-col max-w-lg">
                 <h1 class="my-8">
                 	Hi there,<br>
                 	I'm Gunharth Randolf,<br> web engineer, developer, consultant, writer, speaker and musician. <br>
@@ -139,6 +140,7 @@
 
                 <p class="my-4"><span class="italic">“The world is a university and everyone in it is a teacher. Make sure when you wake up in the morning, you go to school.” ―T. D. Jakes</span></p>
             </div>
+        </div>
         </div>
     </div>
 </body>
