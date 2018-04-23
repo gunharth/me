@@ -15,6 +15,7 @@ Was erwarten Sie sich von der FH
 - Neues produktives/ kreatives Umfeld / Input
 - Aufbau in Richtung Lehrtätigkeit & Wissenschaftliches Arbeiten
 - Netzwerk
+- Ständig am lernen
 
 - Risiko? Kurse sind blödsinn?
 - Kosten? Abschreiben ...
