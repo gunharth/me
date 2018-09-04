@@ -6,11 +6,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
     <title>Gunharth Randolf - Web Engineer &amp; developer</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0a2a33">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#0a2a33">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,300italic,300,700" rel="stylesheet" type="text/css">
@@ -105,6 +105,13 @@
         color: #979797;
         border-bottom: 1px dashed #979797
     }
+
+    a[href^="http://"]:after,
+    a[href^="https://"]:after,
+    a[href^="projects"]:after {
+        content: url(Icon_External_Link.svg);
+    margin: 0 0 0 5px;
+    }
     </style>
 </head>
 
@@ -123,13 +130,13 @@
             <div class="sm:h-full flex flex-col max-w-lg">
                 <h1 class="my-8">
                 	Hi there,<br>
-                	I'm Gunharth Randolf,<br> web engineer, developer, consultant, writer, speaker and musician. <br>
+                	I'm Gunharth Randolf,<br> web engineer, developer, consultant <br>based in Innsbruck, Austria. <br>
                 	<span class="my-4">Welcome to my slice of the web.</span>
                 </h1>
 
                 <p class="mb-4">Over the last 20 years I've been lucky enough to work on many interesting and diverse web-related <a href="projects.html" target="_blank">projects</a>.</p>
 
-                <p class="my-4">I consider myself a web engineer with the skills to lay hands on actual code as well as consult and plan the architectural side of large sized applications. Lately, I've been diving into container orchestration and blockchain technology.</p>
+                <p class="my-4">I consider myself a web engineer with the skills to lay hands on actual code as well as consult and plan the architectural side of large sized applications. Lately, I've been diving into container orchestration and kubernetes technology.</p>
 
                 <p class="my-4">Check out my open source work at <a href="https://github.com/gunharth" target="_blank">GitHub</a> and view my coding statistics at <a href="https://sourcerer.io/gunharth" target="_blank">Sourcerer</a>.
                 </p>
@@ -141,7 +148,7 @@
                 <p class="my-4"><span class="italic">“The world is a university and everyone in it is a teacher. Make sure when you wake up in the morning, you go to <a href="studies.html">school</a>.” ―T. D. Jakes</span></p>
 
                 <p class="mt-4 text-sm">---</p>
-                <p class="text-sm"><em>&copy; 2018 Gunharth Randolf . <a href="Lebenslauf_Gunharth_Randolf.pdf" target="_blank">CV</a></em></p>
+                <p class="text-sm"><em>&copy; 2018 Gunharth Randolf <!--. <a href="Lebenslauf_Gunharth_Randolf.pdf" target="_blank">CV</a>--></em></p>
             </div>
         </div>
         </div>
